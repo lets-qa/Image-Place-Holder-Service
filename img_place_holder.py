@@ -51,6 +51,68 @@ def homepage():
           </li>
         </ul>
 
+         <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-xl font-bold mb-4">Sample Placeholder Images:</h1>
+        <div class="space-y-6">
+            <!-- Leaderboard -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Leaderboard (728x90)</p>
+                <img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard"&gt;
+                </textarea>
+            </div>
+            <!-- Medium Rectangle -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Medium Rectangle (300x250)</p>
+                <img src="https://iph.lets.qa/300x250" alt="Medium Rectangle" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/300x250" alt="Medium Rectangle"&gt;
+                </textarea>
+            </div>
+            <!-- Large Rectangle -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Large Rectangle (336x280)</p>
+                <img src="https://iph.lets.qa/336x280" alt="Large Rectangle" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/336x280" alt="Large Rectangle"&gt;
+                </textarea>
+            </div>
+            <!-- Skyscraper -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Skyscraper (120x600)</p>
+                <img src="https://iph.lets.qa/120x600" alt="Skyscraper" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/120x600" alt="Skyscraper"&gt;
+                </textarea>
+            </div>
+            <!-- Wide Skyscraper -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Wide Skyscraper (160x600)</p>
+                <img src="https://iph.lets.qa/160x600" alt="Wide Skyscraper" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/160x600" alt="Wide Skyscraper"&gt;
+                </textarea>
+            </div>
+            <!-- Half Page -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Half Page (300x600)</p>
+                <img src="https://iph.lets.qa/300x600" alt="Half Page" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/300x600" alt="Half Page"&gt;
+                </textarea>
+            </div>
+            <!-- Banner -->
+            <div class="flex flex-col items-center">
+                <p class="font-semibold">Banner (468x60)</p>
+                <img src="https://iph.lets.qa/468x60" alt="Banner" class="border rounded">
+                <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
+&lt;img src="https://iph.lets.qa/468x60" alt="Banner"&gt;
+                </textarea>
+            </div>
+        </div>
+    </div>
+
       </body>
     </html>    """
     return html_content
