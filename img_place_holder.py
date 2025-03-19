@@ -17,6 +17,12 @@ def homepage():
   <body class="font-sans p-10 bg-gray-100">
     <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
       <h1 class="text-3xl font-bold mb-4 text-center">Lets.QA: Image Place Holder Service</h1>
+      
+      <div class="bg-blue-100 text-blue-800 p-4 rounded-lg mb-6 text-center">
+        <p class="font-semibold">Do you want to run your own? Would you like to see something added? Do you want to add to it yourself?</p>
+        <a href="https://github.com/lets-qa/Image-Place-Holder-Service" class="text-blue-600 font-bold hover:underline" target="_blank">Check out the GitHub repository!</a>
+      </div>
+      
       <p class="mb-6 text-center text-gray-700">
         This service generates placeholder images in SVG format for use in websites and prototypes.
         To use it, specify the desired dimensions in the URL and optional query parameters for text, 
