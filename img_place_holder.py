@@ -14,76 +14,74 @@ def homepage():
     <title>Lets.QA: Image Place Holder Service</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="font-sans p-10">
-    <h1 class="text-2xl font-bold mb-4">Lets.QA: Image Place Holder Service</h1>
-    <p class="mb-6">
-      This service generates placeholder images in SVG format for use in websites and prototypes.
-      To use it, specify the desired dimensions in the URL and optional query parameters for text, 
-      background color, and text color.
-    </p>
+  <body class="font-sans p-10 bg-gray-100">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+      <h1 class="text-3xl font-bold mb-4 text-center">Lets.QA: Image Place Holder Service</h1>
+      <p class="mb-6 text-center text-gray-700">
+        This service generates placeholder images in SVG format for use in websites and prototypes.
+        To use it, specify the desired dimensions in the URL and optional query parameters for text, 
+        background color, and text color.
+      </p>
 
-    <h2 class="text-xl font-bold mb-4">Basic Usage</h2>
-    <ul class="list-disc ml-6 mb-6">
-      <li><strong>Dimensions</strong>: <code>/{width}x{height}</code> or <code>/{size}</code> for squares</li>
-      <li><strong>Query Params</strong>:
-        <ul class="list-disc ml-6">
-          <li><code>?text=Your+Text</code></li>
-          <li><code>?bg=cccccc</code> (background color in hex without #)</li>
-          <li><code>?color=000000</code> (text color in hex without #)</li>
-        </ul>
-      </li>
-    </ul>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Basic Usage</h2>
+      <ul class="list-disc ml-6 mb-6 text-gray-800">
+        <li><strong>Dimensions</strong>: <code>/{width}x{height}</code> or <code>/{size}</code> for squares</li>
+        <li><strong>Query Params</strong>:
+          <ul class="list-disc ml-6">
+            <li><code>?text=Your+Text</code></li>
+            <li><code>?bg=cccccc</code> (background color in hex without #)</li>
+            <li><code>?color=000000</code> (text color in hex without #)</li>
+          </ul>
+        </li>
+      </ul>
 
-    <h2 class="text-xl font-bold mb-4">Examples</h2>
-    <ul class="list-disc ml-6 mb-6">
-      <li>
-        <a href="/300x100" class="text-blue-500">/300x100</a> 
-        &mdash; returns a 300 × 100 gray image with default text “300 x 100”.
-      </li>
-      <li>
-        <a href="/400?text=Square%20Placeholder" class="text-blue-500">/400?text=Square%20Placeholder</a> 
-        &mdash; returns a 400 × 400 placeholder with custom text.
-      </li>
-      <li>
-        <a href="/600x200?text=Hello+World&bg=ff0000&color=ffffff" class="text-blue-500">
-          /600x200?text=Hello+World&amp;bg=ff0000&amp;color=ffffff
-        </a> 
-        &mdash; returns a 600 × 200 placeholder with white text on a red background.
-      </li>
-    </ul>
-    
-    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6">
-      <h2 class="text-xl font-bold mb-4">Sample Placeholder Images:</h2>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Examples</h2>
+      <ul class="list-disc ml-6 mb-6 text-gray-800">
+        <li>
+          <a href="/300x100" class="text-blue-500 hover:underline">/300x100</a> 
+          &mdash; returns a 300 × 100 gray image with default text “300 x 100”.
+        </li>
+        <li>
+          <a href="/400?text=Square%20Placeholder" class="text-blue-500 hover:underline">/400?text=Square%20Placeholder</a> 
+          &mdash; returns a 400 × 400 placeholder with custom text.
+        </li>
+        <li>
+          <a href="/600x200?text=Hello+World&bg=ff0000&color=ffffff" class="text-blue-500 hover:underline">
+            /600x200?text=Hello+World&amp;bg=ff0000&amp;color=ffffff
+          </a> 
+          &mdash; returns a 600 × 200 placeholder with white text on a red background.
+        </li>
+      </ul>
+      
+      <h2 class="text-2xl font-bold mb-4 text-center">Sample Placeholder Images:</h2>
       <div class="space-y-6">
-        <!-- Example Image Section -->
-        <div class="flex flex-col items-center w-full max-w-lg mx-auto">
+        <div class="flex flex-col items-center w-full max-w-lg mx-auto bg-gray-50 p-4 rounded-lg shadow">
           <p class="font-semibold">Leaderboard (728x90)</p>
           <img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" 
                alt="Leaderboard" 
                class="border rounded mb-2">
           <div class="w-full">
-            <textarea class="w-full border p-2 text-sm" rows="2" readonly>
+            <textarea class="w-full border p-2 text-sm bg-gray-100" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard"&gt;
             </textarea>
           </div>
         </div>
         
-        <!-- More Examples -->
-        <div class="flex flex-col items-center w-full max-w-lg mx-auto">
+        <div class="flex flex-col items-center w-full max-w-lg mx-auto bg-gray-50 p-4 rounded-lg shadow">
           <p class="font-semibold">Medium Rectangle (300x250)</p>
           <img src="https://iph.lets.qa/300x250" alt="Medium Rectangle" class="border rounded mb-2">
           <div class="w-full">
-            <textarea class="w-full border p-2 text-sm" rows="2" readonly>
+            <textarea class="w-full border p-2 text-sm bg-gray-100" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/300x250" alt="Medium Rectangle"&gt;
             </textarea>
           </div>
         </div>
         
-        <div class="flex flex-col items-center w-full max-w-lg mx-auto">
+        <div class="flex flex-col items-center w-full max-w-lg mx-auto bg-gray-50 p-4 rounded-lg shadow">
           <p class="font-semibold">Large Rectangle (336x280)</p>
           <img src="https://iph.lets.qa/336x280" alt="Large Rectangle" class="border rounded mb-2">
           <div class="w-full">
-            <textarea class="w-full border p-2 text-sm" rows="2" readonly>
+            <textarea class="w-full border p-2 text-sm bg-gray-100" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/336x280" alt="Large Rectangle"&gt;
             </textarea>
           </div>
