@@ -57,7 +57,7 @@ def homepage():
             <!-- Leaderboard -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Leaderboard (728x90)</p>
-                <img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard" class="border rounded">
+                <img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/728x90?text=HI+MOM+😊&bg=145DA0&color=ffffff" alt="Leaderboard"&gt;
                 </textarea>
@@ -65,7 +65,7 @@ def homepage():
             <!-- Medium Rectangle -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Medium Rectangle (300x250)</p>
-                <img src="https://iph.lets.qa/300x250" alt="Medium Rectangle" class="border rounded">
+                <img src="https://iph.lets.qa/300x250" alt="Medium Rectangle" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/300x250" alt="Medium Rectangle"&gt;
                 </textarea>
@@ -73,7 +73,7 @@ def homepage():
             <!-- Large Rectangle -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Large Rectangle (336x280)</p>
-                <img src="https://iph.lets.qa/336x280" alt="Large Rectangle" class="border rounded">
+                <img src="https://iph.lets.qa/336x280" alt="Large Rectangle" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/336x280" alt="Large Rectangle"&gt;
                 </textarea>
@@ -81,7 +81,7 @@ def homepage():
             <!-- Skyscraper -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Skyscraper (120x600)</p>
-                <img src="https://iph.lets.qa/120x600" alt="Skyscraper" class="border rounded">
+                <img src="https://iph.lets.qa/120x600" alt="Skyscraper" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/120x600" alt="Skyscraper"&gt;
                 </textarea>
@@ -89,7 +89,7 @@ def homepage():
             <!-- Wide Skyscraper -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Wide Skyscraper (160x600)</p>
-                <img src="https://iph.lets.qa/160x600" alt="Wide Skyscraper" class="border rounded">
+                <img src="https://iph.lets.qa/160x600" alt="Wide Skyscraper" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/160x600" alt="Wide Skyscraper"&gt;
                 </textarea>
@@ -97,7 +97,7 @@ def homepage():
             <!-- Half Page -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Half Page (300x600)</p>
-                <img src="https://iph.lets.qa/300x600" alt="Half Page" class="border rounded">
+                <img src="https://iph.lets.qa/300x600" alt="Half Page" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/300x600" alt="Half Page"&gt;
                 </textarea>
@@ -105,7 +105,7 @@ def homepage():
             <!-- Banner -->
             <div class="flex flex-col items-center">
                 <p class="font-semibold">Banner (468x60)</p>
-                <img src="https://iph.lets.qa/468x60" alt="Banner" class="border rounded">
+                <img src="https://iph.lets.qa/468x60" alt="Banner" class="border rounded"><br />
                 <textarea class="mt-2 w-full border p-2 text-sm" rows="2" readonly>
 &lt;img src="https://iph.lets.qa/468x60" alt="Banner"&gt;
                 </textarea>
